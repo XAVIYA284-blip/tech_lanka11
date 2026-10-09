@@ -30,6 +30,12 @@
 </main>
 <footer><div class="wrap" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap"><span>© <span id="year"></span> TechLanka Hub</span><span>Made for Sri Lankan PC enthusiasts · <a href="#home">Back to top ↑</a></span></div></footer>
 <div class="toast" id="toast" role="status"></div>
+  <script>
+window.setTimeout(function () {
+  var loader = document.getElementById("loader");
+  if (loader) loader.classList.add("hide");
+}, 2500);
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="./config.js"></script>
 <script src="./app.js"></script>
